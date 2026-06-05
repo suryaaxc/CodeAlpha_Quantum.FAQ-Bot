@@ -18,6 +18,14 @@ st.markdown("""
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@800&family=Plus+Jakarta+Sans:wght@400;600;700&family=Space+Grotesk:wght@500;700&display=swap');
     
+    /* 🔥 ANTI-COPY CORE PROTECTION MATRIX: Disable absolute selection across DOM layers */
+    html, body, .stApp, div, input, p, span, h1 {
+        -webkit-user-select: none !important;  /* Safari */
+        -moz-user-select: none !important;     /* Firefox */
+        -ms-user-select: none !important;      /* IE 10+ */
+        user-select: none !important;          /* Standard Syntax */
+    }
+    
     /* BACKGROUND ULTRA FORCE FIX */
     .stApp, [data-testid="stAppViewContainer"], [data-testid="stHeader"], [data-testid="stMainBlockContainer"] { 
         background: transparent !important;
@@ -187,7 +195,33 @@ st.components.v1.html("""
     </script>
 """, height=0, scrolling=False)
 
-# 🔥 CORE STRUCTURAL LAYOUT FIXED (Sanitized HTML Wrapper - No multi-line breaks outside markdown)
+# 🔥 ANTI-COPY JAVASCRIPT INJECTION: Kill Right-Click, F12, and Control Shortcuts
+st.components.v1.html("""
+    <script>
+    // 1. Suppress Right Click (Context Menu Frame)
+    document.addEventListener('contextmenu', event => event.preventDefault());
+
+    // 2. Suppress Engineering Inspection Combinations
+    document.onkeydown = function(e) {
+        // Prevent F12 Dev Tools
+        if(e.keyCode == 123) { return false; }
+        
+        // Prevent Ctrl+Shift+I (Inspect)
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) { return false; }
+        
+        // Prevent Ctrl+Shift+C (Element Selector)
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) { return false; }
+        
+        // Prevent Ctrl+Shift+J (Console Node logs)
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) { return false; }
+        
+        // Prevent Ctrl+U (Raw Resource Source Payload View)
+        if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) { return false; }
+    };
+    </script>
+""", height=0, scrolling=False)
+
+# CORE STRUCTURAL LAYOUT FIXED
 st.markdown("""
     <div class="brand-core-wrapper">
         <div class="cyber-tech-logo">
@@ -243,10 +277,12 @@ if user_query:
     
     is_factual_search = any(trigger in query_lower for trigger in ["who is", "ceo", "president", "capital", "population", "weather", "score", "versus", "vs", "founder", "meaning of", "age of", "born", "movie", "toy story", "tell me about"])
     
+    # Node 1: Emotion Engine Mappings
     if not is_factual_search and any(word in query_lower for word in EMOTION_KEYWORDS):
         bot_response = random.choice(EMOTION_RESPONSES)
         response_type = "💚 Companion Core"
 
+    # Node 2: Matrix Mathematical NLP FAQ Scoring
     if not bot_response:
         compiled_queries = TECH_DATA["queries"] + [user_query]
         vectorizer = TfidfVectorizer(stop_words='english')
@@ -260,6 +296,7 @@ if user_query:
             bot_response = TECH_DATA["responses"][best_match_idx]
             response_type = f"⚙️ Tech Node (Match: {highest_score:.2f})"
 
+    # Node 3: Open-Knowledge REST Endpoints
     if not bot_response:
         with st.spinner("🚀 Querying global open knowledge framework..."):
             try:
@@ -278,6 +315,7 @@ if user_query:
             except:
                 pass
 
+    # Node 4: Fallback Search Mechanics
     if not bot_response:
         try:
             search_url = f"https://en.wikipedia.org/w/api.php?action=opensearch&search={urllib.parse.quote(user_query)}&limit=1&namespace=0&format=json"
@@ -297,6 +335,7 @@ if user_query:
         except:
             pass
 
+    # Final Security Fallback Layer
     if not bot_response:
         bot_response = "Bhai, phrase context isolated ajeeb hai. Try rephrasing with direct nouns (e.g. 'Toy Story movie', 'Elon Musk')."
         response_type = "⚠️ System Fallback"
