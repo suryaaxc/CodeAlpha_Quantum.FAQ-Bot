@@ -1,15 +1,17 @@
-# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Symbols/Shield.png" width="45" height="45"/> <span style="font-family:'Space Grotesk',sans-serif; font-weight:900; background: linear-gradient(135deg, #00ffcc 0%, #39ff14 50%, #ff3131 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; filter: drop-shadow(0 0 15px rgba(0,255,204,0.6));">⚡ QUANTUM.FAQ MAINMAIN mainframe v2.0</span>
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Symbols/Shield.png" width="45" height="45"/> <span style="font-family:'Space Grotesk',sans-serif; font-weight:900; background: linear-gradient(135deg, #00ffcc 0%, #39ff14 50%, #ff3131 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; filter: drop-shadow(0 0 15px rgba(0,255,204,0.6));">⚡ QUANTUM.FAQ BOT</span>
 
 > **🦾 HIGH-DIMENSIONAL CONTEXTUAL HYBRID NLP NAVIGATION NODE**
+> ---
 
 An elite, production-grade conversational intelligence subroutine engineered with an advanced dual-engine routing framework. The platform dynamically orchestrates low-latency local text vectorization alongside global open-domain REST protocols, fully enclosed inside an immersive cyberpunk visual ecosystem running an ambient HTML5 binary matrix stream canvas loop.
 
 ---
 
 ## ⚡ SYSTEM ARCHITECTURE PIPELINE
+---
 
 The core execution matrix routes user query strings through a multi-tiered validation pipeline based on high-dimensional cosine proximity thresholds.
-
+```
       [User Query Vector Ingestion]
                    │
                    ▼
@@ -34,11 +36,12 @@ Emotion Key?                      ▼
 └─────────────┬─────────────┘
 ▼
 [Typewriter Streaming Interface]
-
+```
 
 ---
 
 ## 📊 SYSTEM SPECIFICATIONS MATRIX
+----
 
 | SPECIFICATION PARAMETER | CORE TECHNOLOGY NODE | FUNCTIONAL EXECUTION TARGET |
 | :--- | :--- | :--- |
@@ -52,6 +55,7 @@ Emotion Key?                      ▼
 ---
 
 ## 🔥 ENGINE CORE IMPLEMENTATION & LOGIC
+---
 
 ### 🟢 1. Multi-Color Jarvis Status Readout
 * **Dynamic Diagnostics:** Displays live hex code memory pointers (`CORE_ID`) and real-time computation benchmarks (`LATENCY`) that randomize on execution cycles to simulate full-stack system metrics.
