@@ -14,7 +14,7 @@ st.set_page_config(
     layout="centered"
 )
 
-# STYLE INJECTION: Immersive Minimalist Jarvis Matrix Environment
+# STYLE INJECTION: Responsive Adaptive Cyber Grid with Jarvis Status Bar
 st.markdown("""
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght=800&family=Plus+Jakarta+Sans:wght=400;600;700&family=Space+Grotesk:wght=500;700&display=swap');
@@ -22,116 +22,72 @@ st.markdown("""
     html, body, .stApp, div, input, p, span, h1 { user-select: none !important; }
     .stApp, [data-testid="stAppViewContainer"], [data-testid="stHeader"], [data-testid="stMainBlockContainer"] { background: transparent !important; }
     
-    /* SYSTEM THEME ADAPTATION PROTOCOL WITH KINETIC GLOW BACKGROUNDS */
+    /* SYSTEM THEME ADAPTATION PROTOCOL */
     @media (prefers-color-scheme: dark) {
         html, body {
             background: 
-                radial-gradient(circle at 10% 20%, rgba(57, 255, 20, 0.04) 0%, transparent 40%),
-                radial-gradient(circle at 90% 80%, rgba(255, 49, 49, 0.04) 0%, transparent 40%),
-                background-color: #030101 !important;
+                radial-gradient(circle at 15% 25%, rgba(57, 255, 20, 0.05) 0%, transparent 45%),
+                radial-gradient(circle at 85% 75%, rgba(255, 49, 49, 0.05) 0%, transparent 45%),
+                radial-gradient(circle at 50% 30%, #0a0505 0%, #020000 70%, #000000 100%) !important;
             background-attachment: fixed !important;
         }
         .stylish-title { color: #ffffff !important; }
-        .user-bubble { background: rgba(57, 255, 20, 0.02) !important; color: #ffffff !important; box-shadow: 0 0 15px rgba(57, 255, 20, 0.02); }
-        .bot-bubble { background: rgba(255, 49, 49, 0.01) !important; color: #fff0f0 !important; box-shadow: 0 0 20px rgba(255, 49, 49, 0.02); }
-        div[data-baseweb="input"] { background: rgba(8, 4, 4, 0.9) !important; }
+        .user-bubble { background: rgba(57, 255, 20, 0.02) !important; color: #ffffff !important; }
+        .bot-bubble { background: rgba(255, 49, 49, 0.02) !important; color: #fff0f0 !important; }
+        div[data-baseweb="input"] { background: rgba(10, 3, 3, 0.85) !important; }
         input { color: #ffffff !important; }
-        .status-node { background: rgba(6, 4, 4, 0.7) !important; }
+        .status-node { background: rgba(10, 5, 5, 0.6) !important; }
     }
 
     @media (prefers-color-scheme: light) {
         html, body {
             background: 
-                radial-gradient(circle at 10% 20%, rgba(57, 255, 20, 0.05) 0%, transparent 45%),
-                radial-gradient(circle at 90% 80%, rgba(255, 49, 49, 0.05) 0%, transparent 45%),
-                background-color: #faf9f6 !important;
+                radial-gradient(circle at 15% 25%, rgba(57, 255, 20, 0.06) 0%, transparent 50%),
+                radial-gradient(circle at 85% 75%, rgba(255, 49, 49, 0.06) 0%, transparent 50%),
+                radial-gradient(circle at 50% 30%, #fcfbfa 0%, #f5f4f0 70%, #eeeeee 100%) !important;
             background-attachment: fixed !important;
         }
         .stylish-title { color: #111111 !important; }
-        .user-bubble { background: rgba(57, 255, 20, 0.03) !important; color: #111111 !important; }
-        .bot-bubble { background: rgba(255, 49, 49, 0.03) !important; color: #221111 !important; }
-        div[data-baseweb="input"] { background: rgba(255, 255, 255, 0.95) !important; border: 1px solid rgba(255, 49, 49, 0.3) !important; }
+        .user-bubble { background: rgba(57, 255, 20, 0.04) !important; color: #111111 !important; }
+        .bot-bubble { background: rgba(255, 49, 49, 0.04) !important; color: #221111 !important; }
+        div[data-baseweb="input"] { background: rgba(255, 255, 255, 0.95) !important; border: 1px solid rgba(255, 49, 49, 0.4) !important; }
         input { color: #111111 !important; }
-        .status-node { background: rgba(245, 244, 240, 0.9) !important; }
+        .status-node { background: rgba(240, 240, 240, 0.8) !important; }
     }
 
-    /* STRUCTURE CORE ELEMENTS & TRANSITIONS */
-    .brand-core-wrapper { text-align: center; margin: 40px 0 10px 0; position: relative; z-index: 10; animation: fadeIn 1s ease-out; }
-    @keyframes fadeIn { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
-    
+    /* STRUCTURE CORE ELEMENTS */
+    .brand-core-wrapper { text-align: center; margin: 40px 0 10px 0; position: relative; z-index: 10; }
     .cyber-tech-logo { width: 60px; height: 60px; margin: 0 auto 25px auto; position: relative; display: flex; align-items: center; justify-content: center; }
-    .logo-square { position: absolute; width: 100%; height: 100%; border: 2px solid #39ff14; border-radius: 12px; transform: rotate(45deg); box-shadow: 0 0 15px rgba(57, 255, 20, 0.2); animation: spinClockwise 12s linear infinite; }
-    .logo-inner-core { position: absolute; width: 50%; height: 50%; border: 2px dashed #ff3131; border-radius: 6px; transform: rotate(-45deg); box-shadow: 0 0 10px rgba(255, 49, 49, 0.3); animation: spinCounter 8s linear infinite; }
+    .logo-square { position: absolute; width: 100%; height: 100%; border: 2px solid #39ff14; border-radius: 12px; transform: rotate(45deg); box-shadow: 0 0 15px rgba(57, 255, 20, 0.3); animation: spinClockwise 8s linear infinite; }
+    .logo-inner-core { position: absolute; width: 50%; height: 50%; border: 2px dashed #ff3131; border-radius: 6px; transform: rotate(-45deg); box-shadow: 0 0 10px rgba(255, 49, 49, 0.4); animation: spinCounter 6s linear infinite; }
     @keyframes spinClockwise { 0% { transform: rotate(45deg); } 100% { transform: rotate(405deg); } }
     @keyframes spinCounter { 0% { transform: rotate(-45deg); } 100% { transform: rotate(-405deg); } }
     
     .stylish-title { font-family: 'Cinzel', serif; font-weight: 800; font-size: 3.2rem; letter-spacing: 3px; text-transform: uppercase; }
-    .gradient-accent { color: #ff3131; text-shadow: 0 0 10px rgba(255, 49, 49, 0.6); }
+    .gradient-accent { color: #ff3131; text-shadow: 0 0 8px rgba(255, 49, 49, 0.5); }
     
-    /* QUANTUM CAPSULAR STATUS CHANNELS */
+    /* ADVANCED JARVIS STATUS BAR (As per image_669b66.png) */
     .status-bar-container { display: flex; justify-content: center; gap: 14px; margin: 20px auto; font-family: 'Space Grotesk', sans-serif; font-size: 0.72rem; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; }
-    .status-node { padding: 10px 18px; border-radius: 14px; backdrop-filter: blur(12px); display: inline-flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; min-width: 155px; line-height: 1.4; transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
-    .status-node:hover { transform: scale(1.03); box-shadow: 0 0 15px rgba(57, 255, 20, 0.15); }
-    .node-green { color: #39ff14; border: 1px solid rgba(57, 255, 20, 0.35); }
+    .status-node { padding: 10px 18px; border-radius: 14px; backdrop-filter: blur(8px); display: inline-flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; min-width: 150px; line-height: 1.4; }
+    .node-green { color: #39ff14; border: 1px solid rgba(57, 255, 20, 0.35); box-shadow: 0 0 10px rgba(57, 255, 20, 0.05); }
     .status-pulse { display: inline-block; width: 6px; height: 6px; background: #39ff14; border-radius: 50%; margin-bottom: 4px; box-shadow: 0 0 8px #39ff14; animation: pulseAlpha 1.5s infinite; }
-    .badge-subtext { font-size: 0.55rem; color: #777788; letter-spacing: 1px; margin-top: 3px; font-weight: 400; }
+    .badge-subtext { font-size: 0.55rem; color: #888888; letter-spacing: 1px; margin-top: 2px; font-weight: 400; }
     @keyframes pulseAlpha { 0%, 100% { opacity: 0.4; } 50% { opacity: 1; } }
 
-    /* CHAT STREAM ARCHITECTURE WITH ANIMATION LAYERS */
     .chat-container { margin: 25px 0; position: relative; z-index: 10; }
-    .user-bubble { border: 1px solid rgba(57, 255, 20, 0.2) !important; padding: 16px 20px; border-radius: 12px 12px 0px 12px; margin-left: 15%; margin-bottom: 18px; font-family: 'Plus Jakarta Sans', sans-serif; animation: slideLeft 0.4s cubic-bezier(0.1, 0.8, 0.3, 1); }
-    .bot-bubble { border: 1px solid rgba(255, 49, 49, 0.25) !important; padding: 20px; border-radius: 12px 12px 12px 0px; margin-right: 15%; margin-bottom: 18px; font-family: 'Plus Jakarta Sans', sans-serif; line-height: 1.65; animation: slideRight 0.5s cubic-bezier(0.1, 0.8, 0.3, 1); position: relative; }
+    .user-bubble { border: 1px solid rgba(57, 255, 20, 0.2) !important; padding: 16px 20px; border-radius: 12px 12px 0px 12px; margin-left: 15%; margin-bottom: 18px; font-family: 'Plus Jakarta Sans', sans-serif; }
+    .bot-bubble { border: 1px solid rgba(255, 49, 49, 0.2) !important; padding: 16px 20px; border-radius: 12px 12px 12px 0px; margin-right: 15%; margin-bottom: 18px; font-family: 'Plus Jakarta Sans', sans-serif; line-height: 1.6; }
     
-    @keyframes slideLeft { from { opacity: 0; transform: translateX(20px); } to { opacity: 1; transform: translateX(0); } }
-    @keyframes slideRight { from { opacity: 0; transform: translateX(-20px); } to { opacity: 1; transform: translateX(0); } }
-    
-    /* Holographic Typewriter Cursor Node */
-    .jarvis-cursor::after {
-        content: '█';
-        animation: blink 0.8s infinite;
-        color: #ff3131;
-        margin-left: 3px;
-        font-size: 0.95rem;
-    }
-    @keyframes blink { 0%, 100% { opacity: 0; } 50% { opacity: 1; } }
-    
-    div[data-baseweb="input"] { border: 1px solid rgba(255, 49, 49, 0.25) !important; border-radius: 30px !important; transition: all 0.3s ease; }
-    div[data-baseweb="input"]:focus-within { border-color: #39ff14 !important; box-shadow: 0 0 15px rgba(57, 255, 20, 0.15) !important; }
+    div[data-baseweb="input"] { border: 1px solid rgba(255, 49, 49, 0.25) !important; border-radius: 30px !important; }
     input { font-family: 'Plus Jakarta Sans', sans-serif !important; }
     </style>
 """, unsafe_allow_html=True)
 
-# AMBIENT JARVIS TERMINAL MATRIX CODE STREAM (Fades safely behind panels)
-st.components.v1.html("""
-    <canvas id="matrixStream" style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; pointer-events: none; z-index: 0; opacity: 0.15;"></canvas>
-    <script>
-    const canvas = document.getElementById('matrixStream'); const ctx = canvas.getContext('2d');
-    function resize() { canvas.width = window.innerWidth; canvas.height = window.innerHeight; }
-    resize(); window.addEventListener('resize', resize);
-    
-    const chars = '01'.split('');
-    const fontSize = 14; const columns = canvas.width / fontSize;
-    const drops = Array(Math.floor(columns)).fill(1);
-    
-    function drawMatrix() {
-        ctx.fillStyle = 'rgba(3, 1, 1, 0.08)'; ctx.fillRect(0, 0, canvas.width, canvas.height);
-        ctx.fillStyle = '#00ffcc'; ctx.font = fontSize + 'px monospace';
-        for (let i = 0; i < drops.length; i++) {
-            const text = chars[Math.floor(Math.random() * chars.length)];
-            ctx.fillText(text, i * fontSize, drops[i] * fontSize);
-            if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) drops[i] = 0;
-            drops[i]++;
-        }
-    }
-    setInterval(drawMatrix, 40);
-    </script>
-""", height=0, scrolling=False)
-
-# DYNAMIC READOUT VARIABLES
+# JARVIS CORE LIVE DATA FIELD STRINGS
 live_hex = f"0x{random.randint(4096, 65535):X}"
-live_ms = f"{random.uniform(0.12, 0.35):.2f}ms"
+live_ms = f"{random.uniform(0.12, 0.48):.2f}ms"
 
-# CORE GRAPHICS HEADER
+# CORE GRAPHICS HEADER (Tuned via image_669b66.png references)
 st.markdown(f"""
     <div class="brand-core-wrapper">
         <div class="cyber-tech-logo">
@@ -142,15 +98,15 @@ st.markdown(f"""
         <div class="status-bar-container">
             <div class="status-node node-green">
                 <div><span class="status-pulse"></span> SYSTEM CORE: ACTIVE</div>
-                <div class="badge-subtext">CORE_ID: {live_hex}</div>
+                <div class="badge-subtext">ADDR: {live_hex}</div>
             </div>
             <div class="status-node node-green">
                 <div>OFFLINE KNOWLEDGE MATRIX</div>
-                <div class="badge-subtext">INDEX: COMPRESSED</div>
+                <div class="badge-subtext">LATENCY: {live_ms}</div>
             </div>
             <div class="status-node node-green">
                 <div>LOCAL HIGH-DIMENSIONAL TUNED</div>
-                <div class="badge-subtext">LATENCY: {live_ms}</div>
+                <div class="badge-subtext">VEC_SPACE: 1x22 MATRIX</div>
             </div>
         </div>
     </div>
@@ -158,6 +114,7 @@ st.markdown(f"""
 
 st.markdown("---")
 
+# UNIVERSAL DATASETS
 UNIVERSAL_DATA = {
     "queries": [
         "what is your name?", "who are you", "how does this chatbot work?", 
@@ -233,7 +190,7 @@ EMOTION_RESPONSES = [
     "Listen to me, low phases are just temporary glitches in the matrix. Chal thoda chill kar, step back le aur restart maar. You got this, flex up!"
 ]
 
-user_query = st.text_input("SHARE WHAT'S ON YOUR MIND OR ASK ANY QUESTION", placeholder="System awaiting vector transmission...")
+user_query = st.text_input("SHARE WHAT'S ON YOUR MIND OR ASK ANY QUESTION", placeholder="Type here...")
 
 if user_query:
     query_lower = user_query.lower().strip()
@@ -243,12 +200,12 @@ if user_query:
     st.markdown('<div class="chat-container">', unsafe_allow_html=True)
     st.markdown(f'<div class="user-bubble"><b>🧑‍💻 User Input Matrix:</b><br>{user_query}</div>', unsafe_allow_html=True)
     
-    # LAYER 1: COMPANION ENGINE
+    # ─── LAYER 1: COMPANION ENGINE ───
     if any(word in query_lower for word in EMOTION_KEYWORDS):
         bot_response = random.choice(EMOTION_RESPONSES)
         response_type = "💚 Companion Core"
 
-    # LAYER 2: LOCAL HIGH-DIMENSIONAL CLASSIFIER
+    # ─── LAYER 2: LOCAL HIGH-DIMENSIONAL CLASSIFIER ───
     if not bot_response:
         compiled_queries = UNIVERSAL_DATA["queries"] + [user_query]
         vectorizer = TfidfVectorizer(stop_words='english')
@@ -258,16 +215,17 @@ if user_query:
         best_match_idx = similarity_scores.argmax()
         highest_score = similarity_scores[best_match_idx]
         
-        if highest_score > 0.35:
+        if highest_score > 0.35:  # High threshold for localized dataset accuracy
             bot_response = UNIVERSAL_DATA["responses"][best_match_idx]
             response_type = "🏛️ Offline Knowledge Matrix"
 
-    # LAYER 3: DYNAMIC SHORT STREAM CHANNELS
+    # ─── LAYER 3: COGNITIVE LIVE TRANSLATION OVERRIDE ENGINE ───
     if not bot_response:
         try:
+            # Open gate to decentralized zero-key processing node
             system_instruction = (
-                "You are Jarvis. Explain the user query clearly in an extremely short, concise, "
-                "and exam-ready format. Use bullet points or short bold headings if applicable. Max 100 words."
+                "You are Jarvis, a high-tech assistant. Explain the user query clearly in a very short, crisp, "
+                "and exam-ready format. Use bullet points or short bold headings if applicable. Do not write filler words."
             )
             req = urllib.request.Request(
                 "https://text.pollinations.ai/", 
@@ -285,45 +243,16 @@ if user_query:
             
             ai_out = res_data["choices"][0]["message"]["content"]
             if ai_out:
-                bot_response = ai_out.strip()
+                bot_response = ai_out.strip().replace("\n", "<br>")
                 response_type = "🌐 Cognitive Intelligent Node"
         except Exception:
             pass
 
-    # LAYER 4: FALLBACK NODE
+    # ─── LAYER 4: SAFE FALLBACK CRITICAL NODE ───
     if not bot_response:
-        bot_response = "Bhai, keyword parameters out-of-bounds chal rahe hain. Try checking your local gateway parameters."
+        bot_response = "Bhai, network nodes drop ho rahe hain. Try checking your local gateway parameters."
         response_type = "⚠️ System Safe Fallback"
 
-    # STREAMING ANIMATION GENERATOR (Jarvis Typewriter Module)
-    formatted_response = bot_response.replace("'", "\\'").replace("\n", " ").replace("\r", "")
-    unique_stream_id = f"jarvis_core_{int(time.time())}"
-    
-    st.markdown(f"""
-        <div class="bot-bubble">
-            <b>🤖 Matrix Engine ({response_type}):</b><br><br>
-            <span id="{unique_stream_id}" class="jarvis-cursor"></span>
-        </div>
-        
-        <script>
-            (function() {{
-                const el = document.getElementById('{unique_stream_id}');
-                const textStr = '{formatted_response}';
-                let idx = 0;
-                
-                function processStream() {{
-                    if (idx < textStr.length) {{
-                        if(textStr.substr(idx, 4) === '<br>') {{ el.innerHTML += '<br>'; idx += 4; }}
-                        else if(textStr.substr(idx, 4) === '<li>') {{ el.innerHTML += '<li>'; idx += 4; }}
-                        else if(textStr.substr(idx, 5) === '</li>') {{ el.innerHTML += '</li>'; idx += 5; }}
-                        else {{ el.innerHTML += textStr.charAt(idx); idx++; }}
-                        setTimeout(processStream, 12);
-                    }} else {{
-                        el.classList.remove('jarvis-cursor');
-                    }}
-                }}
-                setTimeout(processStream, 300);
-            }})();
-        </script>
-    """, unsafe_allow_html=True)
+    # OUTPUT PRESENTATION LAYER
+    st.markdown(f'<div class="bot-bubble"><b>🤖 Matrix Engine ({response_type}):</b><br><br>{bot_response}</div>', unsafe_allow_html=True)
     st.markdown('</div>', unsafe_allow_html=True)
