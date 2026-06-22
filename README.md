@@ -1,6 +1,6 @@
-# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Symbols/Shield.png" width="40" height="40"/> <span style="font-family:'Cinzel'; font-weight:800; background: linear-gradient(45deg, #39ff14, #00ffcc, #ff3131); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">QUANTUM.FAQ BOT</span>
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Symbols/Shield.png" width="45" height="45"/> <span style="font-family:'Space Grotesk',sans-serif; font-weight:900; background: linear-gradient(135deg, #00ffcc 0%, #39ff14 50%, #ff3131 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; filter: drop-shadow(0 0 15px rgba(0,255,204,0.6));">⚡ QUANTUM.FAQ MAINMAIN mainframe v2.0</span>
 
-> **ENTERPRISE DUAL-ENGINE CONTEXTUAL HYBRID NLP INFRASTRUCTURE**
+> **🦾 HIGH-DIMENSIONAL CONTEXTUAL HYBRID NLP NAVIGATION NODE**
 
 An elite, production-grade conversational intelligence subroutine engineered with an advanced dual-engine routing framework. The platform dynamically orchestrates low-latency local text vectorization alongside global open-domain REST protocols, fully enclosed inside an immersive cyberpunk visual ecosystem running an ambient HTML5 binary matrix stream canvas loop.
 
@@ -9,7 +9,7 @@ An elite, production-grade conversational intelligence subroutine engineered wit
 ## ⚡ SYSTEM ARCHITECTURE PIPELINE
 
 The core execution matrix routes user query strings through a multi-tiered validation pipeline based on high-dimensional cosine proximity thresholds.
-```
+
       [User Query Vector Ingestion]
                    │
                    ▼
@@ -34,26 +34,24 @@ Emotion Key?                      ▼
 └─────────────┬─────────────┘
 ▼
 [Typewriter Streaming Interface]
-```
+
 
 ---
 
 ## 📊 SYSTEM SPECIFICATIONS MATRIX
-----
 
 | SPECIFICATION PARAMETER | CORE TECHNOLOGY NODE | FUNCTIONAL EXECUTION TARGET |
 | :--- | :--- | :--- |
-| <span style="color:#39ff14; font-weight:bold;">Vector Extraction</span> | `TfidfVectorizer` (Scikit-Learn) | Converts text inputs into high-dimensional numerical arrays. |
-| <span style="color:#00ffcc; font-weight:bold;">Proximity Calculator</span> | `cosine_similarity` (Linear Algebra) | Computes token angle metrics to map user query patterns. |
-| <span style="color:#ff3131; font-weight:bold;">Cognitive Overdrive</span> | `Pollinations REST Core` (OpenAI API) | Zero-key fallback logic generating crisp 100-token summaries. |
-| <span style="color:#ffcc00; font-weight:bold;">Client Interface</span> | `Streamlit Environment` | HTML5 Canvas grid injection with ambient particle physics. |
-| <span style="color:#ff00ff; font-weight:bold;">Data Compilers</span> | `Pandas Dataframe Arrays` | Indexes and holds structural knowledge base matrices locally. |
-| <span style="color:#00a8ff; font-weight:bold;">Runtime Framework</span> | `Python 3.11+ Pipeline` | Multi-threaded execution environment for localized parsing. |
+| <span style="color:#39ff14; font-weight:bold; text-shadow: 0 0 5px #39ff14;">Vector Extraction</span> | `TfidfVectorizer` (Scikit-Learn) | Converts text inputs into high-dimensional numerical arrays. |
+| <span style="color:#00ffcc; font-weight:bold; text-shadow: 0 0 5px #00ffcc;">Proximity Calculator</span> | `cosine_similarity` (Linear Algebra) | Computes token angle metrics to map user query patterns. |
+| <span style="color:#ff3131; font-weight:bold; text-shadow: 0 0 5px #ff3131;">Cognitive Overdrive</span> | `Pollinations REST Core` (OpenAI API) | Zero-key fallback logic generating crisp 100-token summaries. |
+| <span style="color:#ffcc00; font-weight:bold; text-shadow: 0 0 5px #ffcc00;">Client Interface</span> | `Streamlit Environment` | HTML5 Canvas grid injection with ambient particle physics. |
+| <span style="color:#ff00ff; font-weight:bold; text-shadow: 0 0 5px #ff00ff;">Data Compilers</span> | `Pandas Dataframe Arrays` | Indexes and holds structural knowledge base matrices locally. |
+| <span style="color:#00a8ff; font-weight:bold; text-shadow: 0 0 5px #00a8ff;">Runtime Framework</span> | `Python 3.11+ Pipeline` | Multi-threaded execution environment for localized parsing. |
 
 ---
 
 ## 🔥 ENGINE CORE IMPLEMENTATION & LOGIC
-----
 
 ### 🟢 1. Multi-Color Jarvis Status Readout
 * **Dynamic Diagnostics:** Displays live hex code memory pointers (`CORE_ID`) and real-time computation benchmarks (`LATENCY`) that randomize on execution cycles to simulate full-stack system metrics.
@@ -72,7 +70,6 @@ Emotion Key?                      ▼
 📜 REGULATORY LEDGER
 🛡️ COPYRIGHT REGISTER
 © 2026 SURYA | ALL REFS SECURED
-
 
 
 ⚖️ DISTRIBUTION LICENSE
