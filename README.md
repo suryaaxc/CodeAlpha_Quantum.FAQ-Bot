@@ -1,4 +1,6 @@
-#         ⚡ QUANTUM.FAQ BOT</spam>
+<div align="center">
+      
+#  ⚡ QUANTUM.FAQ BOT</spam>
 </centre>
 
 > **🦾 HIGH-DIMENSIONAL CONTEXTUAL HYBRID NLP NAVIGATION NODE**
