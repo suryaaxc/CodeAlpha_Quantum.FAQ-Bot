@@ -1,83 +1,159 @@
 <div align="center">
-      
-#  ⚡ QUANTUM.FAQ BOT</spam>
-</centre>
 
-> **🦾 HIGH-DIMENSIONAL CONTEXTUAL HYBRID NLP NAVIGATION NODE**
-> ---
+# ⚡ QUANTUM.FAQ BOT
 
-An elite, production-grade conversational intelligence subroutine engineered with an advanced dual-engine routing framework. The platform dynamically orchestrates low-latency local text vectorization alongside global open-domain REST protocols, fully enclosed inside an immersive cyberpunk visual ecosystem running an ambient HTML5 binary matrix stream canvas loop.
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=30&duration=2500&pause=1000&color=00F7FF&center=true&vCenter=true&width=1000&lines=HYBRID+CONTEXTUAL+NLP+ENGINE;TF-IDF+%7C+COSINE+SIMILARITY+%7C+AI;LOCAL+VECTOR+SEARCH+%2B+REST+FALLBACK;CYBERPUNK+CONVERSATIONAL+INTELLIGENCE" />
+
+<br>
+
+<img src="https://img.shields.io/badge/Status-Production_Ready-00FF88?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/NLP-Hybrid_Routing-00E5FF?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Vector_Search-TF--IDF-FF0055?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Similarity-Cosine_Engine-FFA500?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Runtime-Python_3.11-7A5CFF?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/UI-Streamlit-FF4D6D?style=for-the-badge"/>
+
+</div>
 
 ---
 
-## ⚡ SYSTEM ARCHITECTURE PIPELINE
+# 🛠 AI Tech Arsenal
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=python,streamlit,git,github,vscode&theme=dark" />
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/TF--IDF-Vectorization-00F7FF?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Cosine-Similarity-00FF88?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/NLP-Processing-FF0055?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/REST-Fallback_AI-FFA500?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Knowledge-Base_System-7A5CFF?style=for-the-badge"/>
+
+</p>
+
 ---
 
-The core execution matrix routes user query strings through a multi-tiered validation pipeline based on high-dimensional cosine proximity thresholds.
+# 📊 AI Engine Modules
+
+| 🧠 NLP Core       | ⚡ Routing Engine        | 🎨 User Interface    |
+| ----------------- | ----------------------- | -------------------- |
+| TF-IDF Vectorizer | Similarity Thresholding | Streamlit Dashboard  |
+| Cosine Similarity | Local Knowledge Base    | Typewriter Streaming |
+| Intent Matching   | REST Fallback Layer     | Cyberpunk UI         |
+| Query Processing  | Hybrid Decision Logic   | Matrix Background    |
+
+---
+
+# ⚡ Runtime Profile
+
+```yaml
+Vector Engine: TF-IDF
+Similarity Algorithm: Cosine Similarity
+Threshold Score: 0.35
+Knowledge Source: Local Dataset
+Fallback Engine: REST AI Node
+Frontend: Streamlit
+Runtime: Python 3.11
+Mode: Hybrid NLP
+Status: Operational
 ```
-      [User Query Vector Ingestion]
-                   │
-                   ▼
-     [TF-IDF Vectorization Engine]
-                   │
-                   ▼
-   [Calculate Cosine Proximity Matrix]
-                   │
-     ┌─────────────┴─────────────┐
-     ▼                           ▼
-[Score ≥ 0.35]              [Score < 0.35]
-│                           │
-(Local Storage)            (Cognitive Node)
-│                           │
-Emotion Key?                      ▼
-├── YES ──► [COMPANION CORE]  [POLLINATIONS AI]
-└── NO  ──► [LOCAL DATA CORE] (Jarvis Engine)
-│                           │
-▼                           ▼
-[Local Pipeline Out]       [REST Gateway Out]
-│                           │
-└─────────────┬─────────────┘
-▼
-[Typewriter Streaming Interface]
+
+---
+
+# 🚀 Cognitive Routing Architecture
+
+```text
+╔════════════════════════════════════════════╗
+║             QUANTUM.FAQ BOT                ║
+╚════════════════════════════════════════════╝
+
+User Query
+     │
+     ▼
+TF-IDF Vectorization
+     │
+     ▼
+Cosine Similarity Engine
+     │
+ ┌───┴───────────────┐
+ ▼                   ▼
+
+Match Found      No Match
+(Local KB)      (AI Fallback)
+
+ ▼                   ▼
+
+Knowledge Core   REST Gateway
+
+ └───────┬───────────┘
+         ▼
+
+Response Stream
+
+         ▼
+
+Typewriter Interface
 ```
 
 ---
 
-## 📊 SYSTEM SPECIFICATIONS MATRIX
-----
+# 💼 Resume Highlight
 
-| SPECIFICATION PARAMETER | CORE TECHNOLOGY NODE | FUNCTIONAL EXECUTION TARGET |
-| :--- | :--- | :--- |
-| <span style="color:#39ff14; font-weight:bold; text-shadow: 0 0 5px #39ff14;">Vector Extraction</span> | `TfidfVectorizer` (Scikit-Learn) | Converts text inputs into high-dimensional numerical arrays. |
-| <span style="color:#00ffcc; font-weight:bold; text-shadow: 0 0 5px #00ffcc;">Proximity Calculator</span> | `cosine_similarity` (Linear Algebra) | Computes token angle metrics to map user query patterns. |
-| <span style="color:#ff3131; font-weight:bold; text-shadow: 0 0 5px #ff3131;">Cognitive Overdrive</span> | `Pollinations REST Core` (OpenAI API) | Zero-key fallback logic generating crisp 100-token summaries. |
-| <span style="color:#ffcc00; font-weight:bold; text-shadow: 0 0 5px #ffcc00;">Client Interface</span> | `Streamlit Environment` | HTML5 Canvas grid injection with ambient particle physics. |
-| <span style="color:#ff00ff; font-weight:bold; text-shadow: 0 0 5px #ff00ff;">Data Compilers</span> | `Pandas Dataframe Arrays` | Indexes and holds structural knowledge base matrices locally. |
-| <span style="color:#00a8ff; font-weight:bold; text-shadow: 0 0 5px #00a8ff;">Runtime Framework</span> | `Python 3.11+ Pipeline` | Multi-threaded execution environment for localized parsing. |
+> Engineered a hybrid NLP conversational intelligence platform utilizing TF-IDF vectorization, cosine similarity matching, local knowledge retrieval, REST-based AI fallback systems, and Streamlit to deliver low-latency context-aware responses through a dual-engine routing architecture.
 
 ---
 
-## 🔥 ENGINE CORE IMPLEMENTATION & LOGIC
+# ⚙ Cognitive Boot Sequence
+
+```bash
+$ quantum-faq --boot
+
+[INFO] Loading Knowledge Matrix...
+[SUCCESS] Dataset Indexed
+
+[INFO] Initializing TF-IDF Engine...
+[SUCCESS] Vector Space Generated
+
+[INFO] Activating Similarity Core...
+[SUCCESS] Cosine Matrix Online
+
+[INFO] Starting Hybrid Router...
+[SUCCESS] AI Fallback Active
+
+[STATUS] Conversational Intelligence Ready
+```
+
 ---
 
-### 🟢 1. Multi-Color Jarvis Status Readout
-* **Dynamic Diagnostics:** Displays live hex code memory pointers (`CORE_ID`) and real-time computation benchmarks (`LATENCY`) that randomize on execution cycles to simulate full-stack system metrics.
-* **Visual Isolation:** Neon capsules are individually isolated into specific visual boundaries: **System Core (Green)**, **Knowledge Matrix (Cyan)**, and **Vector Space (Red)**.
+# 🔒 Intellectual Property Notice
 
-### 🔵 2. Local High-Dimensional Vectorization
-* **Semantic Threshold (0.35):** If the highest proximity index passes the `0.35` operational baseline, it bypasses the internet gateway completely to fetch ultra-low latency internal answers.
-* **Stop-Words Filtering:** Integrated english token truncation to extract core technical definitions without computational overhead.
+<img src="https://img.shields.io/badge/Copyright-Protected-FF0055?style=for-the-badge"/>
 
-### 🔴 3. Cognitive Live Override (Jarvis Node)
-* **Context Crunching:** Automatically structures complex engineering questions down to clear, exam-ready bullet points.
-* **Asynchronous Streaming:** Injects a custom JavaScript typewriter daemon simulating a real-time thinking mainframe at `12ms` intervals.
+<img src="https://img.shields.io/badge/License-MIT-00E5FF?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/NLP-Engine-00FF88?style=for-the-badge"/>
+
+**QUANTUM.FAQ BOT © 2026 Suryakant Kumar**
+
+Advanced hybrid NLP routing system combining vector search, similarity analysis, and AI-assisted response generation.
 
 ---
 
-📜 REGULATORY LEDGER
-🛡️ COPYRIGHT REGISTER
-© 2026 SURYA | ALL REFS SECURED
+<div align="center">
 
+# ⚡ THINK LOCALLY. SEARCH INTELLIGENTLY. RESPOND INSTANTLY.
 
-⚖️ DISTRIBUTION LICENSE
-MIT LICENSE | OPEN-SOURCE NODE PROTOTYPE
+### Built with Python • Streamlit • Scikit-Learn • Pandas • NLP
+
+</div>
