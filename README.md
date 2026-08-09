@@ -7,7 +7,7 @@
 <br>
   
 <img src="https://img.shields.io/badge/Status-Production_Ready-00FF88?style=for-the-badge"/>
-
+ 
 <img src="https://img.shields.io/badge/NLP-Hybrid_Routing-00E5FF?style=for-the-badge"/>
 
 <img src="https://img.shields.io/badge/Vector_Search-TF--IDF-FF0055?style=for-the-badge"/>
